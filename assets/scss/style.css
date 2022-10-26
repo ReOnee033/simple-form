@@ -1,0 +1,74 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .main {
+  margin: auto;
+  width: 400px;
+  height: 600px;
+  background-color: rgb(39, 38, 38);
+  border-radius: 7%;
+}
+body .main .logo {
+  width: 400px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .main .logo i {
+  font-size: 172px;
+  color: #fff;
+}
+body .main .text {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 300px;
+  padding: 0 24px;
+}
+body .main .text h3 {
+  text-align: left;
+  font-size: 16px;
+  color: #fff;
+}
+body .main .text input {
+  width: 350px;
+  height: 30px;
+  margin-bottom: 10px;
+  border-radius: 0.5rem;
+}
+body .main .text input:focus {
+  outline: none;
+}
+body .main .text .password {
+  margin-bottom: 20px;
+}
+body .main .text a {
+  text-decoration: none;
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 20px;
+}
+body .main .text .buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+body .main .text .buttons button {
+  color: blue;
+  border-radius: 0.25rem;
+  width: 100px;
+  height: 30px;
+  border: none;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
